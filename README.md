@@ -20,12 +20,14 @@ predict_video.py       # Predicting new videos
 ```
 
 ## Training
-1. Place videos inside ``` 
+1. Place videos inside
+``` 
 data/
    real/      
-   fake/      ```
-2. Run `python deepfake_baseline.py`
-3. The trained model will be saved as `deepfake_smallcnn.pt`
+   fake/
+```
+3. Run `python deepfake_baseline.py`
+4. The trained model will be saved as `deepfake_smallcnn.pt`
 
 ## Inference
 To classify a new video, use `python predict_video.py`. The script outputs a final label (REAL / FAKE) and class probabilities.
