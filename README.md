@@ -4,7 +4,7 @@ Baseline CNN-based system for detecting manipulated (deepfake) videos through fr
 ## Overview
 This project implements an experimental deepfake detection pipeline designed for forensic video analysis. The system:
 - Extracts frames from a video
-- Optionally detects and crops facial regions (Haar Cascade)
+- Optionally detects and crops facial regions (Haar Cascade by OpenCV)
 - Resizes and normalizes images
 - Classifies each frame using a small CNN model
 - Aggregates frame-level probabilities to produce a final video-level decision (REAL / FAKE)
